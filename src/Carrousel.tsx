@@ -12,7 +12,9 @@ function DarkVariantExample() {
           />
           <Carousel.Caption>
             <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>
+              Nulla vitae 4654654645 libero, a pharetra augue mollis interdum.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
