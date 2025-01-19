@@ -2,15 +2,22 @@ import "./App.css";
 import MenuNavBar from "./menu";
 import DarkVariantExample from "./Carrousel";
 import ContactForm from "./formulario";
-import "./carrousel.css"; // O la ruta donde guardes tu archivo CSS
+import "./carrousel.css";
 import "./formulario.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function App() {
   return (
     <>
       <MenuNavBar />
-      <DarkVariantExample />
-      <ContactForm />
+      <Container>
+        <div className="contenedorLanding">
+          <DarkVariantExample />
+          <ContactForm />
+        </div>
+      </Container>
     </>
   );
 }

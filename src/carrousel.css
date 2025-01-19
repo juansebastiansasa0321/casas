@@ -1,3 +1,10 @@
+.ContainerCarroulsel {
+  padding: 0px !important;
+  position: absolute; /* Permite posicionarlo dentro del contenedor */
+
+  z-index: 1; /* Está debajo del Div 2 */
+}
+
 /* Evitar el scroll lateral */
 body,
 html {

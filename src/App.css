@@ -4,3 +4,7 @@ html {
   padding: 0;
   height: 100%;
 }
+
+.contenedorLanding {
+  position: relative; /* Crea un contexto para los hijos con posición absoluta */
+}

@@ -45,7 +45,7 @@ function ContactForm() {
   };
 
   return (
-    <Container>
+    <Container className="containerFormulario">
       <Row>
         <Col xs lg="4" className="formulario">
           {" "}
