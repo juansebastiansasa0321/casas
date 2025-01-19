@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 function DarkVariantExample() {
   return (
-    <Container className="ContainerCarroulsel">
+    <Container fluid className="ContainerCarroulsel">
       <Row>
         <Col>
           {" "}

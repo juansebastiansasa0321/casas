@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <MenuNavBar />
-      <Container>
+      <Container fluid style={{ padding: "0px" }}>
         <div className="contenedorLanding">
           <DarkVariantExample />
           <ContactForm />

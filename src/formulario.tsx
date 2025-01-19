@@ -45,9 +45,9 @@ function ContactForm() {
   };
 
   return (
-    <Container className="containerFormulario">
+    <Container fluid className="containerFormulario">
       <Row>
-        <Col xs lg="4" className="formulario">
+        <Col xs lg="3" className="formulario">
           {" "}
           <div style={{ padding: "20px" }}>
             <h2>Formulario de Contacto</h2>
