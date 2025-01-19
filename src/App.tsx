@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import MenuNavBar from "./menu"
-
+import "./App.css";
+import MenuNavBar from "./menu";
+import DarkVariantExample from "./Carrousel";
+import "./carrousel.css"; // O la ruta donde guardes tu archivo CSS
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-        <MenuNavBar/>
+      <MenuNavBar />
+      <DarkVariantExample />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
