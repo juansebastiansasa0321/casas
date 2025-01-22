@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import BotonFormulario from "./Boton";
 
 function ContactForm() {
   // Estado para cada campo del formulario
@@ -114,6 +115,9 @@ function ContactForm() {
             </form>
           </div>
         </Col>
+        <Row>
+          <BotonFormulario></BotonFormulario>
+        </Row>
       </Row>
     </Container>
   );
